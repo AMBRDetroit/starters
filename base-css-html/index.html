@@ -10,12 +10,14 @@
 	   	
 	   	<style type="text/css">
 	   		body { padding: 20px; }
+	   		.section { margin: 20px 0; }
+	   		.section--buttons button { margin: 5px 0; }
 	   	</style>
 	   	
 	</head>
 	<body>
 	
-		<div>
+		<div class="section">
 			<p>Headlines</p>
 			<h1 class="headline headline--1">Headline 1</h1>
 			<h1 class="headline headline--2">Headline 2</h1>
@@ -23,6 +25,47 @@
 			<h1 class="headline headline--4">Headline 4</h1>
 		</div>
 		
+		<div class="section section--buttons">
+			<p>Buttons</p>
+			<button class="btn btn--positive" type="button">primary - positive</button>
+			<button class="btn btn--positive btn--secondary" type="button">secondary - positive</button>
+			<button class="btn btn--neutral" type="button">primary - neutral</button>
+			<button class="btn btn--neutral btn--secondary" type="button">secondary - neutral</button>
+			<button class="btn btn--negative" type="button">primary - negative</button>
+			<button class="btn btn--negative btn--secondary" type="button">secondary - negative</button>
+		</div>
+		
+		<div class="section">
+			<p>forms</p>
+			<form>
+				<div class="form-element">
+					<label class="form-element__label" for="sample1">text input</label>
+					<span class="form-element__field"><input type="text" id="sample1" name="sample1" /></span>
+				</div>
+				<div class="form-element">
+					<label class="form-element__label" for="sample1">text input (has an icon)</label>
+					<span class="form-element__field form-element__field--icon"><input type="text" id="sample1" name="sample1" /></span>
+				</div>
+				<div class="form-element">
+					<label class="form-element__label" for="sample2">select input</label>
+					<span class="form-element__field form-element__field--select"><select name="sample2" id="sample2">
+						<option value="">sample</option>
+					</select></span>
+				</div>
+				<div class="form-element">
+					<input type="checkbox" id="sample3" name="sample3" />
+					<label class="form-element__label" for="sample3"><span></span>checkbox input</label>
+				</div>
+				<div class="form-element">
+					<input type="radio" id="sample4" name="sample4" />
+					<label class="form-element__label" for="sample4"><span></span>radio choice 1 input</label>
+					<input type="radio" id="sample5" name="sample4" />
+					<label class="form-element__label" for="sample5"><span></span>radio choice 2 input</label>
+					<input type="radio" id="sample6" name="sample4" />
+					<label class="form-element__label" for="sample6"><span></span>radio choice 3 input</label>
+				</div>
+			</form>
+		</div>
 		
     </body>
 </html>
