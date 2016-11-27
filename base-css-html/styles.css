@@ -18,6 +18,7 @@ header, footer, nav, article, section, main { display: block; }
 :-ms-input-placeholder { color: #ccc; opacity: 1; }
 ::-webkit-input-placeholder { color: #ccc; opacity: 1; }
 ::-moz-placeholder { color: #ccc; opacity: 1; }
+::-ms-clear { display: none; }
 select.__placeholder { color: #ccc; opacity: 1; }
 input, textarea, select { background: none; margin: 0; padding: 0; display: block; width: 100%; line-height: normal;
 	-moz-user-select: text; 
