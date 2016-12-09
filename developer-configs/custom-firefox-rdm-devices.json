@@ -1,0 +1,49 @@
+{
+	"TYPES": [ "ambr" ],
+	"ambr" : [{
+		"name": "Mobile (touch 320w)",
+		"width": 320,
+		"height": 667,
+		"pixelRatio": 2,
+	    "userAgent": "",
+	    "touch": true,
+	    "firefoxOS": false,
+	    "os": ""
+    }, {
+    	"name": "Mobile (touch 480w)",
+		"width": 480,
+		"height": 667,
+		"pixelRatio": 2,
+	    "userAgent": "",
+	    "touch": true,
+	    "firefoxOS": false,
+	    "os": ""
+    }, {
+    	"name": "Tablet (touch 768w)",
+		"width": 768,
+		"height": 1024,
+		"pixelRatio": 2,
+	    "userAgent": "",
+	    "touch": true,
+	    "firefoxOS": false,
+	    "os": ""
+    }, {
+    	"name": "Tablet (992w)",
+		"width": 992,
+		"height": 1024,
+		"pixelRatio": 2,
+	    "userAgent": "",
+	    "touch": false,
+	    "firefoxOS": false,
+	    "os": ""
+    }, {
+    	"name": "Desktop (1200w)",
+		"width": 1200,
+		"height": 900,
+		"pixelRatio": 2,
+	    "userAgent": "",
+	    "touch": false,
+	    "firefoxOS": false,
+	    "os": ""
+    }]
+}
