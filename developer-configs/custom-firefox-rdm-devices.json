@@ -1,8 +1,8 @@
 {
 	"TYPES": [ "ambr" ],
 	"ambr" : [{
-		"name": "Mobile (touch 320w)",
-		"width": 320,
+		"name": "Mobile (touch 375w)",
+		"width": 375,
 		"height": 667,
 		"pixelRatio": 2,
 	    "userAgent": "",
