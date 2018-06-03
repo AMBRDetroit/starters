@@ -1,0 +1,16 @@
+{
+	 // Controls if the diff editor shows changes in leading or trailing whitespace as diffs
+	"diffEditor.ignoreTrimWhitespace": false,
+	// Controls whether eslint is enabled for JavaScript files or not.
+	"eslint.enable" : false,
+	// When opening a file, `editor.tabSize` and `editor.insertSpaces` will be detected based on the file contents.
+    "editor.detectIndentation" : false,
+	// Insert spaces when pressing Tab. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
+	"editor.insertSpaces" : false,
+	// Whether auto fetching is enabled
+	"git.autofetch": true,
+	// Confirm before synchronizing git repositories
+	"git.confirmSync": false,
+	// Controls which editor is shown at startup, if none is restored from the previous session. Select 'none' to start without an editor, 'welcomePage' to open the Welcome page (default), 'newUntitledFile' to open a new untitled file (only opening an empty workspace).
+	"workbench.startupEditor": "welcomePage"
+}
